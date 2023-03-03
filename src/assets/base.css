@@ -49,14 +49,19 @@
     --color-text: var(--vt-c-text-dark-2);
   }
 }
-
+@font-face {
+  font-family: vazir;
+  src: url(./fonts/vazir/Vazir-Light.ttf);
+}
 *,
 *::before,
 *::after {
   box-sizing: border-box;
   margin: 0;
   position: relative;
+  font-family: vazir;
   font-weight: normal;
+  direction: rtl;
 }
 
 body {
